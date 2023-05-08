@@ -1,0 +1,45 @@
+header {
+  background-color: var(--primary);
+  padding: var(--padding);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+
+  &:hover {
+    color: black;
+  }
+}
+
+footer {
+  background-color: var(--primary);
+  padding: var(--padding);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 99%;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+
+  &:hover {
+    color: black;
+  }
+}
+.ativo {
+  display: none;
+}
